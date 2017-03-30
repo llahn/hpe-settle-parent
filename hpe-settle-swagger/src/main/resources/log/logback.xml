@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?> 
+<configuration>
+	 <!-- 定义日志文件 输入位置 -->  
+    <property name="log_home" value="/" />  
+    <!-- 日志最大的历史 30天 -->  
+    <property name="maxHistory" value="30"/>  
+
+
+	<appender name="console" class="ch.qos.logback.core.ConsoleAppender">
+		<encoder>
+			<pattern>%date{yyyy-MM-dd HH:mm:ss.SSS} [%thread] %-5level %logger{36} - %msg%n</pattern>
+		</encoder>  
+	</appender>
+ 
+	<appender name="rollingFile" class="ch.qos.logback.core.rolling.RollingFileAppender">
+		<rollingPolicy class="ch.qos.logback.core.rolling.TimeBasedRollingPolicy">
+		 <!--日志输出位置  可相对、和绝对路径 -->  
+			<fileNamePattern>${log_home}/hpe-settle-swagger.%d{yyyy-MM-dd}.log</fileNamePattern>
+		</rollingPolicy>
+		<encoder>
+			<pattern>%date{HH:mm:ss.SSS} [%thread] %-5level %logger{36} - %msg%n</pattern>
+		</encoder>
+	</appender>  
+
+	<!-- project default level -->
+	<logger name="com.hpe" level="DEBUG" />
+
+	<logger name="com.fasterxml" level="ERROR"/>	
+	<logger name="net.sf.ehcache" level="ERROR"/>	
+	 <logger name="org.springframework">
+        <level value="ERROR"/>  
+    </logger>   
+      
+	<!--log4jdbc -->
+	<logger name="jdbc.sqltiming" level="ERROR"/>
+	
+	<root level="DEBUG">
+		<appender-ref ref="rollingFile" />
+		<appender-ref ref="console" />
+	</root>
+</configuration>

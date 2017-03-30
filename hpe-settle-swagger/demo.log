@@ -1,0 +1,477 @@
+2017-03-29 23:18:42.350  INFO 8424 --- [main] com.hpe.settle.swagger.Application       : Starting Application on LLAHN-PC with PID 8424 (F:\Li_Lei\Project\SpringBoot-Demo\hpe-settle-parent\hpe-settle-swagger\target\classes started by Administrator in F:\Li_Lei\Project\SpringBoot-Demo\hpe-settle-parent\hpe-settle-swagger)
+2017-03-29 23:18:42.360  INFO 8424 --- [main] com.hpe.settle.swagger.Application       : The following profiles are active: dev
+2017-03-29 23:18:42.432  INFO 8424 --- [main] ationConfigEmbeddedWebApplicationContext : Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@24105dc5: startup date [Wed Mar 29 23:18:42 CST 2017]; root of context hierarchy
+2017-03-29 23:18:46.472  INFO 8424 --- [main] s.b.c.e.t.TomcatEmbeddedServletContainer : Tomcat initialized with port(s): 8881 (http)
+2017-03-29 23:18:46.501  INFO 8424 --- [main] o.apache.catalina.core.StandardService   : Starting service Tomcat
+2017-03-29 23:18:46.503  INFO 8424 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet Engine: Apache Tomcat/8.0.33
+2017-03-29 23:18:46.777  INFO 8424 --- [localhost-startStop-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2017-03-29 23:18:46.777  INFO 8424 --- [localhost-startStop-1] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 4350 ms
+2017-03-29 23:18:47.344  INFO 8424 --- [localhost-startStop-1] o.s.b.c.e.ServletRegistrationBean        : Mapping servlet: 'dispatcherServlet' to [/]
+2017-03-29 23:18:47.354  INFO 8424 --- [localhost-startStop-1] o.s.b.c.embedded.FilterRegistrationBean  : Mapping filter: 'characterEncodingFilter' to: [/*]
+2017-03-29 23:18:47.355  INFO 8424 --- [localhost-startStop-1] o.s.b.c.embedded.FilterRegistrationBean  : Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2017-03-29 23:18:47.355  INFO 8424 --- [localhost-startStop-1] o.s.b.c.embedded.FilterRegistrationBean  : Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2017-03-29 23:18:47.355  INFO 8424 --- [localhost-startStop-1] o.s.b.c.embedded.FilterRegistrationBean  : Mapping filter: 'requestContextFilter' to: [/*]
+2017-03-29 23:18:48.606  INFO 8424 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/v2/api-docs],methods=[GET]}" onto public org.springframework.http.ResponseEntity<springfox.documentation.spring.web.json.Json> springfox.documentation.swagger2.web.Swagger2Controller.getDocumentation(java.lang.String)
+2017-03-29 23:18:48.613  INFO 8424 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/configuration/ui]}" onto org.springframework.http.ResponseEntity<springfox.documentation.swagger.web.UiConfiguration> springfox.documentation.swagger.web.ApiResourceController.uiConfiguration()
+2017-03-29 23:18:48.614  INFO 8424 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/swagger-resources]}" onto org.springframework.http.ResponseEntity<java.util.List<springfox.documentation.swagger.web.SwaggerResource>> springfox.documentation.swagger.web.ApiResourceController.swaggerResources()
+2017-03-29 23:18:48.616  INFO 8424 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/configuration/security]}" onto org.springframework.http.ResponseEntity<springfox.documentation.swagger.web.SecurityConfiguration> springfox.documentation.swagger.web.ApiResourceController.securityConfiguration()
+2017-03-29 23:18:48.622  INFO 8424 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2017-03-29 23:18:48.623  INFO 8424 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2017-03-29 23:18:49.304  INFO 8424 --- [main] s.w.s.m.m.a.RequestMappingHandlerAdapter : Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@24105dc5: startup date [Wed Mar 29 23:18:42 CST 2017]; root of context hierarchy
+2017-03-29 23:18:49.400  INFO 8424 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2017-03-29 23:18:49.401  INFO 8424 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2017-03-29 23:18:49.481  INFO 8424 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2017-03-29 23:18:50.116  INFO 8424 --- [main] o.s.j.e.a.AnnotationMBeanExporter        : Registering beans for JMX exposure on startup
+2017-03-29 23:18:50.136  INFO 8424 --- [main] d.s.w.p.DocumentationPluginsBootstrapper : Context refreshed
+2017-03-29 23:18:50.317  INFO 8424 --- [main] d.s.w.p.DocumentationPluginsBootstrapper : Found {0} custom documentation plugin(s)
+2017-03-29 23:18:50.343  INFO 8424 --- [main] s.d.s.w.s.ApiListingReferenceScanner     : Scanning for api listing references
+2017-03-29 23:18:50.790  INFO 8424 --- [main] s.b.c.e.t.TomcatEmbeddedServletContainer : Tomcat started on port(s): 8881 (http)
+2017-03-29 23:18:50.800  INFO 8424 --- [main] com.hpe.settle.swagger.Application       : Started Application in 9.17 seconds (JVM running for 9.905)
+2017-03-29 23:19:15.616  INFO 8424 --- [http-nio-8881-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring FrameworkServlet 'dispatcherServlet'
+2017-03-29 23:19:15.617  INFO 8424 --- [http-nio-8881-exec-1] o.s.web.servlet.DispatcherServlet        : FrameworkServlet 'dispatcherServlet': initialization started
+2017-03-29 23:19:15.656  INFO 8424 --- [http-nio-8881-exec-1] o.s.web.servlet.DispatcherServlet        : FrameworkServlet 'dispatcherServlet': initialization completed in 39 ms
+2017-03-29 23:24:06.693  INFO 7544 --- [main] com.hpe.settle.swagger.Application       : Starting Application on LLAHN-PC with PID 7544 (F:\Li_Lei\Project\SpringBoot-Demo\hpe-settle-parent\hpe-settle-swagger\target\classes started by Administrator in F:\Li_Lei\Project\SpringBoot-Demo\hpe-settle-parent\hpe-settle-swagger)
+2017-03-29 23:24:06.699  INFO 7544 --- [main] com.hpe.settle.swagger.Application       : The following profiles are active: dev
+2017-03-29 23:24:06.805  INFO 7544 --- [main] ationConfigEmbeddedWebApplicationContext : Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@24105dc5: startup date [Wed Mar 29 23:24:06 CST 2017]; root of context hierarchy
+2017-03-29 23:24:10.988  INFO 7544 --- [main] s.b.c.e.t.TomcatEmbeddedServletContainer : Tomcat initialized with port(s): 8881 (http)
+2017-03-29 23:24:11.007  INFO 7544 --- [main] o.apache.catalina.core.StandardService   : Starting service Tomcat
+2017-03-29 23:24:11.009  INFO 7544 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet Engine: Apache Tomcat/8.0.33
+2017-03-29 23:24:11.207  INFO 7544 --- [localhost-startStop-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2017-03-29 23:24:11.208  INFO 7544 --- [localhost-startStop-1] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 4409 ms
+2017-03-29 23:24:11.794  INFO 7544 --- [localhost-startStop-1] o.s.b.c.e.ServletRegistrationBean        : Mapping servlet: 'dispatcherServlet' to [/]
+2017-03-29 23:24:11.801  INFO 7544 --- [localhost-startStop-1] o.s.b.c.embedded.FilterRegistrationBean  : Mapping filter: 'characterEncodingFilter' to: [/*]
+2017-03-29 23:24:11.802  INFO 7544 --- [localhost-startStop-1] o.s.b.c.embedded.FilterRegistrationBean  : Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2017-03-29 23:24:11.802  INFO 7544 --- [localhost-startStop-1] o.s.b.c.embedded.FilterRegistrationBean  : Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2017-03-29 23:24:11.802  INFO 7544 --- [localhost-startStop-1] o.s.b.c.embedded.FilterRegistrationBean  : Mapping filter: 'requestContextFilter' to: [/*]
+2017-03-29 23:24:12.804  INFO 7544 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/users],methods=[POST]}" onto public java.lang.String com.hpe.settle.swagger.controller.UserController.postUser(com.hpe.settle.swagger.model.User)
+2017-03-29 23:24:12.807  INFO 7544 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/users],methods=[GET]}" onto public java.util.List<com.hpe.settle.swagger.model.User> com.hpe.settle.swagger.controller.UserController.getUserList()
+2017-03-29 23:24:12.807  INFO 7544 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/users/{id}],methods=[GET]}" onto public com.hpe.settle.swagger.model.User com.hpe.settle.swagger.controller.UserController.getUser(java.lang.Long)
+2017-03-29 23:24:12.808  INFO 7544 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/users/{id}],methods=[PUT]}" onto public java.lang.String com.hpe.settle.swagger.controller.UserController.putUser(java.lang.Long,com.hpe.settle.swagger.model.User)
+2017-03-29 23:24:12.809  INFO 7544 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/users/{id}],methods=[DELETE]}" onto public java.lang.String com.hpe.settle.swagger.controller.UserController.deleteUser(java.lang.Long)
+2017-03-29 23:24:12.810  INFO 7544 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/v2/api-docs],methods=[GET]}" onto public org.springframework.http.ResponseEntity<springfox.documentation.spring.web.json.Json> springfox.documentation.swagger2.web.Swagger2Controller.getDocumentation(java.lang.String)
+2017-03-29 23:24:12.815  INFO 7544 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/configuration/ui]}" onto org.springframework.http.ResponseEntity<springfox.documentation.swagger.web.UiConfiguration> springfox.documentation.swagger.web.ApiResourceController.uiConfiguration()
+2017-03-29 23:24:12.816  INFO 7544 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/swagger-resources]}" onto org.springframework.http.ResponseEntity<java.util.List<springfox.documentation.swagger.web.SwaggerResource>> springfox.documentation.swagger.web.ApiResourceController.swaggerResources()
+2017-03-29 23:24:12.818  INFO 7544 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/configuration/security]}" onto org.springframework.http.ResponseEntity<springfox.documentation.swagger.web.SecurityConfiguration> springfox.documentation.swagger.web.ApiResourceController.securityConfiguration()
+2017-03-29 23:24:12.841  INFO 7544 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2017-03-29 23:24:12.842  INFO 7544 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2017-03-29 23:24:13.334  INFO 7544 --- [main] s.w.s.m.m.a.RequestMappingHandlerAdapter : Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@24105dc5: startup date [Wed Mar 29 23:24:06 CST 2017]; root of context hierarchy
+2017-03-29 23:24:13.461  INFO 7544 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2017-03-29 23:24:13.461  INFO 7544 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2017-03-29 23:24:13.536  INFO 7544 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2017-03-29 23:24:14.028  INFO 7544 --- [main] o.s.j.e.a.AnnotationMBeanExporter        : Registering beans for JMX exposure on startup
+2017-03-29 23:24:14.047  INFO 7544 --- [main] d.s.w.p.DocumentationPluginsBootstrapper : Context refreshed
+2017-03-29 23:24:14.092  INFO 7544 --- [main] d.s.w.p.DocumentationPluginsBootstrapper : Found {0} custom documentation plugin(s)
+2017-03-29 23:24:14.108  INFO 7544 --- [main] s.d.s.w.s.ApiListingReferenceScanner     : Scanning for api listing references
+2017-03-29 23:24:14.467  INFO 7544 --- [main] s.b.c.e.t.TomcatEmbeddedServletContainer : Tomcat started on port(s): 8881 (http)
+2017-03-29 23:24:14.477  INFO 7544 --- [main] com.hpe.settle.swagger.Application       : Started Application in 8.367 seconds (JVM running for 8.994)
+2017-03-29 23:24:17.503  INFO 7544 --- [http-nio-8881-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring FrameworkServlet 'dispatcherServlet'
+2017-03-29 23:24:17.504  INFO 7544 --- [http-nio-8881-exec-1] o.s.web.servlet.DispatcherServlet        : FrameworkServlet 'dispatcherServlet': initialization started
+2017-03-29 23:24:17.531  INFO 7544 --- [http-nio-8881-exec-1] o.s.web.servlet.DispatcherServlet        : FrameworkServlet 'dispatcherServlet': initialization completed in 27 ms
+2017-03-30 07:33:08.468  INFO 1592 --- [main] com.hpe.settle.swagger.Application       : Starting Application on LLAHN-PC with PID 1592 (F:\Li_Lei\Project\SpringBoot-Demo\hpe-settle-parent\hpe-settle-swagger\target\classes started by Administrator in F:\Li_Lei\Project\SpringBoot-Demo\hpe-settle-parent\hpe-settle-swagger)
+2017-03-30 07:33:08.473  INFO 1592 --- [main] com.hpe.settle.swagger.Application       : The following profiles are active: dev
+2017-03-30 07:33:08.576  INFO 1592 --- [main] ationConfigEmbeddedWebApplicationContext : Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@33afa13b: startup date [Thu Mar 30 07:33:08 CST 2017]; root of context hierarchy
+2017-03-30 07:33:13.464  INFO 1592 --- [main] s.b.c.e.t.TomcatEmbeddedServletContainer : Tomcat initialized with port(s): 8881 (http)
+2017-03-30 07:33:13.494  INFO 1592 --- [main] o.apache.catalina.core.StandardService   : Starting service Tomcat
+2017-03-30 07:33:13.496  INFO 1592 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet Engine: Apache Tomcat/8.0.33
+2017-03-30 07:33:13.689  INFO 1592 --- [localhost-startStop-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2017-03-30 07:33:13.689  INFO 1592 --- [localhost-startStop-1] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 5119 ms
+2017-03-30 07:33:14.579  INFO 1592 --- [localhost-startStop-1] o.s.b.c.e.ServletRegistrationBean        : Mapping servlet: 'dispatcherServlet' to [/]
+2017-03-30 07:33:14.587  INFO 1592 --- [localhost-startStop-1] o.s.b.c.embedded.FilterRegistrationBean  : Mapping filter: 'characterEncodingFilter' to: [/*]
+2017-03-30 07:33:14.588  INFO 1592 --- [localhost-startStop-1] o.s.b.c.embedded.FilterRegistrationBean  : Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2017-03-30 07:33:14.588  INFO 1592 --- [localhost-startStop-1] o.s.b.c.embedded.FilterRegistrationBean  : Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2017-03-30 07:33:14.588  INFO 1592 --- [localhost-startStop-1] o.s.b.c.embedded.FilterRegistrationBean  : Mapping filter: 'requestContextFilter' to: [/*]
+2017-03-30 07:33:15.869  INFO 1592 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/users/{id}],methods=[DELETE]}" onto public java.lang.String com.hpe.settle.swagger.controller.UserController.deleteUser(java.lang.Long)
+2017-03-30 07:33:15.871  INFO 1592 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/users],methods=[GET]}" onto public java.util.List<com.hpe.settle.swagger.model.User> com.hpe.settle.swagger.controller.UserController.getUserList()
+2017-03-30 07:33:15.872  INFO 1592 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/users],methods=[POST]}" onto public java.lang.String com.hpe.settle.swagger.controller.UserController.postUser(com.hpe.settle.swagger.model.User)
+2017-03-30 07:33:15.872  INFO 1592 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/users/{id}],methods=[GET]}" onto public com.hpe.settle.swagger.model.User com.hpe.settle.swagger.controller.UserController.getUser(java.lang.Long)
+2017-03-30 07:33:15.873  INFO 1592 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/users/{id}],methods=[PUT]}" onto public java.lang.String com.hpe.settle.swagger.controller.UserController.putUser(java.lang.Long,com.hpe.settle.swagger.model.User)
+2017-03-30 07:33:15.874  INFO 1592 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/v2/api-docs],methods=[GET]}" onto public org.springframework.http.ResponseEntity<springfox.documentation.spring.web.json.Json> springfox.documentation.swagger2.web.Swagger2Controller.getDocumentation(java.lang.String)
+2017-03-30 07:33:15.881  INFO 1592 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/configuration/ui]}" onto org.springframework.http.ResponseEntity<springfox.documentation.swagger.web.UiConfiguration> springfox.documentation.swagger.web.ApiResourceController.uiConfiguration()
+2017-03-30 07:33:15.882  INFO 1592 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/swagger-resources]}" onto org.springframework.http.ResponseEntity<java.util.List<springfox.documentation.swagger.web.SwaggerResource>> springfox.documentation.swagger.web.ApiResourceController.swaggerResources()
+2017-03-30 07:33:15.883  INFO 1592 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/configuration/security]}" onto org.springframework.http.ResponseEntity<springfox.documentation.swagger.web.SecurityConfiguration> springfox.documentation.swagger.web.ApiResourceController.securityConfiguration()
+2017-03-30 07:33:15.904  INFO 1592 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2017-03-30 07:33:15.905  INFO 1592 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2017-03-30 07:33:16.311  INFO 1592 --- [main] s.w.s.m.m.a.RequestMappingHandlerAdapter : Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@33afa13b: startup date [Thu Mar 30 07:33:08 CST 2017]; root of context hierarchy
+2017-03-30 07:33:16.419  INFO 1592 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2017-03-30 07:33:16.420  INFO 1592 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2017-03-30 07:33:16.492  INFO 1592 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2017-03-30 07:33:16.787  INFO 1592 --- [main] o.s.j.e.a.AnnotationMBeanExporter        : Registering beans for JMX exposure on startup
+2017-03-30 07:33:16.819  INFO 1592 --- [main] d.s.w.p.DocumentationPluginsBootstrapper : Context refreshed
+2017-03-30 07:33:16.862  INFO 1592 --- [main] d.s.w.p.DocumentationPluginsBootstrapper : Found {0} custom documentation plugin(s)
+2017-03-30 07:33:16.874  INFO 1592 --- [main] s.d.s.w.s.ApiListingReferenceScanner     : Scanning for api listing references
+2017-03-30 07:33:17.806  INFO 1592 --- [main] s.b.c.e.t.TomcatEmbeddedServletContainer : Tomcat started on port(s): 8881 (http)
+2017-03-30 07:33:17.815  INFO 1592 --- [main] com.hpe.settle.swagger.Application       : Started Application in 10.051 seconds (JVM running for 10.688)
+2017-03-30 07:33:22.584  INFO 1592 --- [http-nio-8881-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring FrameworkServlet 'dispatcherServlet'
+2017-03-30 07:33:22.584  INFO 1592 --- [http-nio-8881-exec-1] o.s.web.servlet.DispatcherServlet        : FrameworkServlet 'dispatcherServlet': initialization started
+2017-03-30 07:33:22.643  INFO 1592 --- [http-nio-8881-exec-1] o.s.web.servlet.DispatcherServlet        : FrameworkServlet 'dispatcherServlet': initialization completed in 59 ms
+2017-03-30 07:34:26.926  INFO 5272 --- [main] com.hpe.settle.swagger.Application       : Starting Application on LLAHN-PC with PID 5272 (F:\Li_Lei\Project\SpringBoot-Demo\hpe-settle-parent\hpe-settle-swagger\target\classes started by Administrator in F:\Li_Lei\Project\SpringBoot-Demo\hpe-settle-parent\hpe-settle-swagger)
+2017-03-30 07:34:26.939  INFO 5272 --- [main] com.hpe.settle.swagger.Application       : The following profiles are active: dev
+2017-03-30 07:34:27.063  INFO 5272 --- [main] ationConfigEmbeddedWebApplicationContext : Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@24105dc5: startup date [Thu Mar 30 07:34:27 CST 2017]; root of context hierarchy
+2017-03-30 07:34:32.353  INFO 5272 --- [main] s.b.c.e.t.TomcatEmbeddedServletContainer : Tomcat initialized with port(s): 8881 (http)
+2017-03-30 07:34:32.384  INFO 5272 --- [main] o.apache.catalina.core.StandardService   : Starting service Tomcat
+2017-03-30 07:34:32.392  INFO 5272 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet Engine: Apache Tomcat/8.0.33
+2017-03-30 07:34:32.643  INFO 5272 --- [localhost-startStop-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2017-03-30 07:34:32.644  INFO 5272 --- [localhost-startStop-1] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 5587 ms
+2017-03-30 07:34:33.340  INFO 5272 --- [localhost-startStop-1] o.s.b.c.e.ServletRegistrationBean        : Mapping servlet: 'dispatcherServlet' to [/]
+2017-03-30 07:34:33.349  INFO 5272 --- [localhost-startStop-1] o.s.b.c.embedded.FilterRegistrationBean  : Mapping filter: 'characterEncodingFilter' to: [/*]
+2017-03-30 07:34:33.350  INFO 5272 --- [localhost-startStop-1] o.s.b.c.embedded.FilterRegistrationBean  : Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2017-03-30 07:34:33.351  INFO 5272 --- [localhost-startStop-1] o.s.b.c.embedded.FilterRegistrationBean  : Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2017-03-30 07:34:33.351  INFO 5272 --- [localhost-startStop-1] o.s.b.c.embedded.FilterRegistrationBean  : Mapping filter: 'requestContextFilter' to: [/*]
+2017-03-30 07:34:35.038  INFO 5272 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/users],methods=[POST]}" onto public java.lang.String com.hpe.settle.swagger.controller.UserController.postUser(com.hpe.settle.swagger.model.User)
+2017-03-30 07:34:35.044  INFO 5272 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/users],methods=[GET]}" onto public java.util.List<com.hpe.settle.swagger.model.User> com.hpe.settle.swagger.controller.UserController.getUserList()
+2017-03-30 07:34:35.047  INFO 5272 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/users/{id}],methods=[GET]}" onto public com.hpe.settle.swagger.model.User com.hpe.settle.swagger.controller.UserController.getUser(java.lang.Long)
+2017-03-30 07:34:35.048  INFO 5272 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/users/{id}],methods=[PUT]}" onto public java.lang.String com.hpe.settle.swagger.controller.UserController.putUser(java.lang.Long,com.hpe.settle.swagger.model.User)
+2017-03-30 07:34:35.049  INFO 5272 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/users/{id}],methods=[DELETE]}" onto public java.lang.String com.hpe.settle.swagger.controller.UserController.deleteUser(java.lang.Long)
+2017-03-30 07:34:35.050  INFO 5272 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/v2/api-docs],methods=[GET]}" onto public org.springframework.http.ResponseEntity<springfox.documentation.spring.web.json.Json> springfox.documentation.swagger2.web.Swagger2Controller.getDocumentation(java.lang.String)
+2017-03-30 07:34:35.075  INFO 5272 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/configuration/security]}" onto org.springframework.http.ResponseEntity<springfox.documentation.swagger.web.SecurityConfiguration> springfox.documentation.swagger.web.ApiResourceController.securityConfiguration()
+2017-03-30 07:34:35.077  INFO 5272 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/configuration/ui]}" onto org.springframework.http.ResponseEntity<springfox.documentation.swagger.web.UiConfiguration> springfox.documentation.swagger.web.ApiResourceController.uiConfiguration()
+2017-03-30 07:34:35.078  INFO 5272 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/swagger-resources]}" onto org.springframework.http.ResponseEntity<java.util.List<springfox.documentation.swagger.web.SwaggerResource>> springfox.documentation.swagger.web.ApiResourceController.swaggerResources()
+2017-03-30 07:34:35.090  INFO 5272 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2017-03-30 07:34:35.091  INFO 5272 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2017-03-30 07:34:35.656  INFO 5272 --- [main] s.w.s.m.m.a.RequestMappingHandlerAdapter : Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@24105dc5: startup date [Thu Mar 30 07:34:27 CST 2017]; root of context hierarchy
+2017-03-30 07:34:35.805  INFO 5272 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2017-03-30 07:34:35.806  INFO 5272 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2017-03-30 07:34:35.927  INFO 5272 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2017-03-30 07:34:36.627  INFO 5272 --- [main] o.s.j.e.a.AnnotationMBeanExporter        : Registering beans for JMX exposure on startup
+2017-03-30 07:34:36.665  INFO 5272 --- [main] d.s.w.p.DocumentationPluginsBootstrapper : Context refreshed
+2017-03-30 07:34:36.713  INFO 5272 --- [main] d.s.w.p.DocumentationPluginsBootstrapper : Found {0} custom documentation plugin(s)
+2017-03-30 07:34:36.734  INFO 5272 --- [main] s.d.s.w.s.ApiListingReferenceScanner     : Scanning for api listing references
+2017-03-30 07:34:37.252  INFO 5272 --- [main] s.b.c.e.t.TomcatEmbeddedServletContainer : Tomcat started on port(s): 8881 (http)
+2017-03-30 07:34:37.262  INFO 5272 --- [main] com.hpe.settle.swagger.Application       : Started Application in 11.133 seconds (JVM running for 11.991)
+2017-03-30 07:34:52.883  INFO 5272 --- [http-nio-8881-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring FrameworkServlet 'dispatcherServlet'
+2017-03-30 07:34:52.884  INFO 5272 --- [http-nio-8881-exec-1] o.s.web.servlet.DispatcherServlet        : FrameworkServlet 'dispatcherServlet': initialization started
+2017-03-30 07:34:52.916  INFO 5272 --- [http-nio-8881-exec-1] o.s.web.servlet.DispatcherServlet        : FrameworkServlet 'dispatcherServlet': initialization completed in 32 ms
+2017-03-30 07:36:06.392  INFO 11224 --- [main] com.hpe.settle.swagger.Application       : Starting Application on LLAHN-PC with PID 11224 (F:\Li_Lei\Project\SpringBoot-Demo\hpe-settle-parent\hpe-settle-swagger\target\classes started by Administrator in F:\Li_Lei\Project\SpringBoot-Demo\hpe-settle-parent\hpe-settle-swagger)
+2017-03-30 07:36:06.397  INFO 11224 --- [main] com.hpe.settle.swagger.Application       : The following profiles are active: dev
+2017-03-30 07:36:06.501  INFO 11224 --- [main] ationConfigEmbeddedWebApplicationContext : Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@47542153: startup date [Thu Mar 30 07:36:06 CST 2017]; root of context hierarchy
+2017-03-30 07:36:11.200  INFO 11224 --- [main] s.b.c.e.t.TomcatEmbeddedServletContainer : Tomcat initialized with port(s): 8881 (http)
+2017-03-30 07:36:11.234  INFO 11224 --- [main] o.apache.catalina.core.StandardService   : Starting service Tomcat
+2017-03-30 07:36:11.236  INFO 11224 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet Engine: Apache Tomcat/8.0.33
+2017-03-30 07:36:11.464  INFO 11224 --- [localhost-startStop-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2017-03-30 07:36:11.464  INFO 11224 --- [localhost-startStop-1] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 4972 ms
+2017-03-30 07:36:12.116  INFO 11224 --- [localhost-startStop-1] o.s.b.c.e.ServletRegistrationBean        : Mapping servlet: 'dispatcherServlet' to [/]
+2017-03-30 07:36:12.125  INFO 11224 --- [localhost-startStop-1] o.s.b.c.embedded.FilterRegistrationBean  : Mapping filter: 'characterEncodingFilter' to: [/*]
+2017-03-30 07:36:12.126  INFO 11224 --- [localhost-startStop-1] o.s.b.c.embedded.FilterRegistrationBean  : Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2017-03-30 07:36:12.127  INFO 11224 --- [localhost-startStop-1] o.s.b.c.embedded.FilterRegistrationBean  : Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2017-03-30 07:36:12.127  INFO 11224 --- [localhost-startStop-1] o.s.b.c.embedded.FilterRegistrationBean  : Mapping filter: 'requestContextFilter' to: [/*]
+2017-03-30 07:36:13.447  INFO 11224 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/users],methods=[GET]}" onto public java.util.List<com.hpe.settle.swagger.model.User> com.hpe.settle.swagger.controller.UserController.getUserList()
+2017-03-30 07:36:13.449  INFO 11224 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/users],methods=[POST]}" onto public java.lang.String com.hpe.settle.swagger.controller.UserController.postUser(com.hpe.settle.swagger.model.User)
+2017-03-30 07:36:13.451  INFO 11224 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/users/{id}],methods=[GET]}" onto public com.hpe.settle.swagger.model.User com.hpe.settle.swagger.controller.UserController.getUser(java.lang.Long)
+2017-03-30 07:36:13.453  INFO 11224 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/users/{id}],methods=[PUT]}" onto public java.lang.String com.hpe.settle.swagger.controller.UserController.putUser(java.lang.Long,com.hpe.settle.swagger.model.User)
+2017-03-30 07:36:13.455  INFO 11224 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/users/{id}],methods=[DELETE]}" onto public java.lang.String com.hpe.settle.swagger.controller.UserController.deleteUser(java.lang.Long)
+2017-03-30 07:36:13.457  INFO 11224 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/v2/api-docs],methods=[GET]}" onto public org.springframework.http.ResponseEntity<springfox.documentation.spring.web.json.Json> springfox.documentation.swagger2.web.Swagger2Controller.getDocumentation(java.lang.String)
+2017-03-30 07:36:13.465  INFO 11224 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/configuration/security]}" onto org.springframework.http.ResponseEntity<springfox.documentation.swagger.web.SecurityConfiguration> springfox.documentation.swagger.web.ApiResourceController.securityConfiguration()
+2017-03-30 07:36:13.481  INFO 11224 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/configuration/ui]}" onto org.springframework.http.ResponseEntity<springfox.documentation.swagger.web.UiConfiguration> springfox.documentation.swagger.web.ApiResourceController.uiConfiguration()
+2017-03-30 07:36:13.482  INFO 11224 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/swagger-resources]}" onto org.springframework.http.ResponseEntity<java.util.List<springfox.documentation.swagger.web.SwaggerResource>> springfox.documentation.swagger.web.ApiResourceController.swaggerResources()
+2017-03-30 07:36:13.493  INFO 11224 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2017-03-30 07:36:13.494  INFO 11224 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2017-03-30 07:36:14.002  INFO 11224 --- [main] s.w.s.m.m.a.RequestMappingHandlerAdapter : Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@47542153: startup date [Thu Mar 30 07:36:06 CST 2017]; root of context hierarchy
+2017-03-30 07:36:14.133  INFO 11224 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2017-03-30 07:36:14.133  INFO 11224 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2017-03-30 07:36:14.212  INFO 11224 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2017-03-30 07:36:14.515  INFO 11224 --- [main] o.s.j.e.a.AnnotationMBeanExporter        : Registering beans for JMX exposure on startup
+2017-03-30 07:36:14.552  INFO 11224 --- [main] d.s.w.p.DocumentationPluginsBootstrapper : Context refreshed
+2017-03-30 07:36:14.597  INFO 11224 --- [main] d.s.w.p.DocumentationPluginsBootstrapper : Found {0} custom documentation plugin(s)
+2017-03-30 07:36:14.615  INFO 11224 --- [main] s.d.s.w.s.ApiListingReferenceScanner     : Scanning for api listing references
+2017-03-30 07:36:14.624  INFO 11224 --- [main] s.w.ClassOrApiAnnotationResourceGrouping : Group for method getUser was user-controller
+2017-03-30 07:36:14.629  INFO 11224 --- [main] s.d.s.w.s.ApiListingReferenceScanner     : Request mapping: getUser belongs to groups: [[ResourceGroup{groupName='user-controller', position=0, controller=com.hpe.settle.swagger.controller.UserController}]] 
+2017-03-30 07:36:14.636  INFO 11224 --- [main] s.w.ClassOrApiAnnotationResourceGrouping : Group for method putUser was user-controller
+2017-03-30 07:36:14.637  INFO 11224 --- [main] s.d.s.w.s.ApiListingReferenceScanner     : Request mapping: putUser belongs to groups: [[ResourceGroup{groupName='user-controller', position=0, controller=com.hpe.settle.swagger.controller.UserController}]] 
+2017-03-30 07:36:14.642  INFO 11224 --- [main] s.w.ClassOrApiAnnotationResourceGrouping : Group for method deleteUser was user-controller
+2017-03-30 07:36:14.646  INFO 11224 --- [main] s.d.s.w.s.ApiListingReferenceScanner     : Request mapping: deleteUser belongs to groups: [[ResourceGroup{groupName='user-controller', position=0, controller=com.hpe.settle.swagger.controller.UserController}]] 
+2017-03-30 07:36:14.647  INFO 11224 --- [main] s.w.ClassOrApiAnnotationResourceGrouping : Group for method getUserList was user-controller
+2017-03-30 07:36:14.647  INFO 11224 --- [main] s.d.s.w.s.ApiListingReferenceScanner     : Request mapping: getUserList belongs to groups: [[ResourceGroup{groupName='user-controller', position=0, controller=com.hpe.settle.swagger.controller.UserController}]] 
+2017-03-30 07:36:14.649  INFO 11224 --- [main] s.w.ClassOrApiAnnotationResourceGrouping : Group for method postUser was user-controller
+2017-03-30 07:36:14.650  INFO 11224 --- [main] s.d.s.w.s.ApiListingReferenceScanner     : Request mapping: postUser belongs to groups: [[ResourceGroup{groupName='user-controller', position=0, controller=com.hpe.settle.swagger.controller.UserController}]] 
+2017-03-30 07:36:14.657  INFO 11224 --- [main] s.d.s.w.s.ApiListingReferenceScanner     : Created resource listing Path: /default/user-controller Description: user-controller Position: 0
+2017-03-30 07:36:14.697  INFO 11224 --- [main] s.d.schema.ModelContextKeyGenerator      : Cache Key Generated: java.lang.String(true)
+2017-03-30 07:36:14.698  INFO 11224 --- [main] s.d.spring.web.caching.CachingAspect     : Caching aspect applied for cache models with key java.lang.String(true)
+2017-03-30 07:36:14.705  INFO 11224 --- [main] s.d.schema.ModelContextKeyGenerator      : Cache Key Generated: java.lang.String(true)
+2017-03-30 07:36:14.706  INFO 11224 --- [main] s.d.spring.web.caching.CachingAspect     : Caching aspect applied for cache modelDependencies with key java.lang.String(true)
+2017-03-30 07:36:14.725  INFO 11224 --- [main] s.d.spring.web.OperationsKeyGenerator    : Cache key generated: /users/{id}.com.hpe.settle.swagger.controller.UserController.deleteUser.DefaultGenericTypeNamingStrategy
+2017-03-30 07:36:14.726  INFO 11224 --- [main] s.d.spring.web.caching.CachingAspect     : Caching aspect applied for cache operations with key /users/{id}.com.hpe.settle.swagger.controller.UserController.deleteUser.DefaultGenericTypeNamingStrategy
+2017-03-30 07:36:14.764  INFO 11224 --- [main] s.w.ClassOrApiAnnotationResourceGrouping : Group for method deleteUser was user-controller
+2017-03-30 07:36:14.876  INFO 11224 --- [main] s.w.ClassOrApiAnnotationResourceGrouping : Group for method deleteUser was user-controller
+2017-03-30 07:36:14.902  INFO 11224 --- [main] s.d.schema.ModelContextKeyGenerator      : Cache Key Generated: com.hpe.settle.swagger.model.User(true)
+2017-03-30 07:36:14.902  INFO 11224 --- [main] s.d.spring.web.caching.CachingAspect     : Caching aspect applied for cache models with key com.hpe.settle.swagger.model.User(true)
+2017-03-30 07:36:14.905  INFO 11224 --- [main] s.d.s.p.ModelPropertiesKeyGenerator      : Cache key generated: com.hpe.settle.swagger.model.User(true)
+2017-03-30 07:36:14.907  INFO 11224 --- [main] s.d.spring.web.caching.CachingAspect     : Caching aspect applied for cache modelProperties with key com.hpe.settle.swagger.model.User(true)
+2017-03-30 07:36:14.961  INFO 11224 --- [main] s.d.schema.ModelContextKeyGenerator      : Cache Key Generated: com.hpe.settle.swagger.model.User(true)
+2017-03-30 07:36:14.962  INFO 11224 --- [main] s.d.spring.web.caching.CachingAspect     : Caching aspect applied for cache modelDependencies with key com.hpe.settle.swagger.model.User(true)
+2017-03-30 07:36:14.963  INFO 11224 --- [main] s.d.s.p.ModelPropertiesKeyGenerator      : Cache key generated: com.hpe.settle.swagger.model.User(true)
+2017-03-30 07:36:14.965  INFO 11224 --- [main] s.d.spring.web.caching.CachingAspect     : Caching aspect applied for cache modelProperties with key com.hpe.settle.swagger.model.User(true)
+2017-03-30 07:36:14.968  INFO 11224 --- [main] s.d.spring.web.OperationsKeyGenerator    : Cache key generated: /users/{id}.com.hpe.settle.swagger.controller.UserController.getUser.DefaultGenericTypeNamingStrategy
+2017-03-30 07:36:14.969  INFO 11224 --- [main] s.d.spring.web.caching.CachingAspect     : Caching aspect applied for cache operations with key /users/{id}.com.hpe.settle.swagger.controller.UserController.getUser.DefaultGenericTypeNamingStrategy
+2017-03-30 07:36:14.985  INFO 11224 --- [main] s.w.ClassOrApiAnnotationResourceGrouping : Group for method getUser was user-controller
+2017-03-30 07:36:14.995  INFO 11224 --- [main] s.w.ClassOrApiAnnotationResourceGrouping : Group for method getUser was user-controller
+2017-03-30 07:36:15.001  INFO 11224 --- [main] s.d.schema.ModelContextKeyGenerator      : Cache Key Generated: java.util.List<com.hpe.settle.swagger.model.User>(true)
+2017-03-30 07:36:15.005  INFO 11224 --- [main] s.d.spring.web.caching.CachingAspect     : Caching aspect applied for cache models with key java.util.List<com.hpe.settle.swagger.model.User>(true)
+2017-03-30 07:36:15.005  INFO 11224 --- [main] s.d.schema.ModelContextKeyGenerator      : Cache Key Generated: java.util.List<com.hpe.settle.swagger.model.User>(true)
+2017-03-30 07:36:15.006  INFO 11224 --- [main] s.d.spring.web.caching.CachingAspect     : Caching aspect applied for cache modelDependencies with key java.util.List<com.hpe.settle.swagger.model.User>(true)
+2017-03-30 07:36:15.007  INFO 11224 --- [main] s.d.s.p.ModelPropertiesKeyGenerator      : Cache key generated: com.hpe.settle.swagger.model.User(true)
+2017-03-30 07:36:15.008  INFO 11224 --- [main] s.d.spring.web.caching.CachingAspect     : Caching aspect applied for cache modelProperties with key com.hpe.settle.swagger.model.User(true)
+2017-03-30 07:36:15.009  INFO 11224 --- [main] s.d.s.p.ModelPropertiesKeyGenerator      : Cache key generated: java.util.List<com.hpe.settle.swagger.model.User>(true)
+2017-03-30 07:36:15.011  INFO 11224 --- [main] s.d.spring.web.caching.CachingAspect     : Caching aspect applied for cache modelProperties with key java.util.List<com.hpe.settle.swagger.model.User>(true)
+2017-03-30 07:36:15.016  INFO 11224 --- [main] s.d.s.p.ModelPropertiesKeyGenerator      : Cache key generated: com.hpe.settle.swagger.model.User(true)
+2017-03-30 07:36:15.016  INFO 11224 --- [main] s.d.spring.web.caching.CachingAspect     : Caching aspect applied for cache modelProperties with key com.hpe.settle.swagger.model.User(true)
+2017-03-30 07:36:15.017  INFO 11224 --- [main] s.d.spring.web.OperationsKeyGenerator    : Cache key generated: /users.com.hpe.settle.swagger.controller.UserController.getUserList.DefaultGenericTypeNamingStrategy
+2017-03-30 07:36:15.019  INFO 11224 --- [main] s.d.spring.web.caching.CachingAspect     : Caching aspect applied for cache operations with key /users.com.hpe.settle.swagger.controller.UserController.getUserList.DefaultGenericTypeNamingStrategy
+2017-03-30 07:36:15.023  INFO 11224 --- [main] s.w.ClassOrApiAnnotationResourceGrouping : Group for method getUserList was user-controller
+2017-03-30 07:36:15.042  INFO 11224 --- [main] s.w.ClassOrApiAnnotationResourceGrouping : Group for method getUserList was user-controller
+2017-03-30 07:36:15.049  INFO 11224 --- [main] s.d.schema.ModelContextKeyGenerator      : Cache Key Generated: java.lang.String(true)
+2017-03-30 07:36:15.050  INFO 11224 --- [main] s.d.spring.web.caching.CachingAspect     : Caching aspect applied for cache models with key java.lang.String(true)
+2017-03-30 07:36:15.050  INFO 11224 --- [main] s.d.schema.ModelContextKeyGenerator      : Cache Key Generated: java.lang.String(true)
+2017-03-30 07:36:15.051  INFO 11224 --- [main] s.d.spring.web.caching.CachingAspect     : Caching aspect applied for cache modelDependencies with key java.lang.String(true)
+2017-03-30 07:36:15.051  INFO 11224 --- [main] s.d.schema.ModelContextKeyGenerator      : Cache Key Generated: com.hpe.settle.swagger.model.User(false)
+2017-03-30 07:36:15.052  INFO 11224 --- [main] s.d.spring.web.caching.CachingAspect     : Caching aspect applied for cache models with key com.hpe.settle.swagger.model.User(false)
+2017-03-30 07:36:15.053  INFO 11224 --- [main] s.d.s.p.ModelPropertiesKeyGenerator      : Cache key generated: com.hpe.settle.swagger.model.User(false)
+2017-03-30 07:36:15.054  INFO 11224 --- [main] s.d.spring.web.caching.CachingAspect     : Caching aspect applied for cache modelProperties with key com.hpe.settle.swagger.model.User(false)
+2017-03-30 07:36:15.058  INFO 11224 --- [main] s.d.schema.ModelContextKeyGenerator      : Cache Key Generated: com.hpe.settle.swagger.model.User(false)
+2017-03-30 07:36:15.059  INFO 11224 --- [main] s.d.spring.web.caching.CachingAspect     : Caching aspect applied for cache modelDependencies with key com.hpe.settle.swagger.model.User(false)
+2017-03-30 07:36:15.061  INFO 11224 --- [main] s.d.s.p.ModelPropertiesKeyGenerator      : Cache key generated: com.hpe.settle.swagger.model.User(false)
+2017-03-30 07:36:15.062  INFO 11224 --- [main] s.d.spring.web.caching.CachingAspect     : Caching aspect applied for cache modelProperties with key com.hpe.settle.swagger.model.User(false)
+2017-03-30 07:36:15.062  INFO 11224 --- [main] s.d.spring.web.OperationsKeyGenerator    : Cache key generated: /users.com.hpe.settle.swagger.controller.UserController.postUser.DefaultGenericTypeNamingStrategy
+2017-03-30 07:36:15.062  INFO 11224 --- [main] s.d.spring.web.caching.CachingAspect     : Caching aspect applied for cache operations with key /users.com.hpe.settle.swagger.controller.UserController.postUser.DefaultGenericTypeNamingStrategy
+2017-03-30 07:36:15.083  INFO 11224 --- [main] s.w.ClassOrApiAnnotationResourceGrouping : Group for method postUser was user-controller
+2017-03-30 07:36:15.095  INFO 11224 --- [main] s.w.ClassOrApiAnnotationResourceGrouping : Group for method postUser was user-controller
+2017-03-30 07:36:15.103  INFO 11224 --- [main] s.d.schema.ModelContextKeyGenerator      : Cache Key Generated: java.lang.String(true)
+2017-03-30 07:36:15.103  INFO 11224 --- [main] s.d.spring.web.caching.CachingAspect     : Caching aspect applied for cache models with key java.lang.String(true)
+2017-03-30 07:36:15.104  INFO 11224 --- [main] s.d.schema.ModelContextKeyGenerator      : Cache Key Generated: java.lang.String(true)
+2017-03-30 07:36:15.104  INFO 11224 --- [main] s.d.spring.web.caching.CachingAspect     : Caching aspect applied for cache modelDependencies with key java.lang.String(true)
+2017-03-30 07:36:15.105  INFO 11224 --- [main] s.d.schema.ModelContextKeyGenerator      : Cache Key Generated: com.hpe.settle.swagger.model.User(false)
+2017-03-30 07:36:15.105  INFO 11224 --- [main] s.d.spring.web.caching.CachingAspect     : Caching aspect applied for cache models with key com.hpe.settle.swagger.model.User(false)
+2017-03-30 07:36:15.106  INFO 11224 --- [main] s.d.schema.ModelContextKeyGenerator      : Cache Key Generated: com.hpe.settle.swagger.model.User(false)
+2017-03-30 07:36:15.106  INFO 11224 --- [main] s.d.spring.web.caching.CachingAspect     : Caching aspect applied for cache modelDependencies with key com.hpe.settle.swagger.model.User(false)
+2017-03-30 07:36:15.107  INFO 11224 --- [main] s.d.spring.web.OperationsKeyGenerator    : Cache key generated: /users/{id}.com.hpe.settle.swagger.controller.UserController.putUser.DefaultGenericTypeNamingStrategy
+2017-03-30 07:36:15.107  INFO 11224 --- [main] s.d.spring.web.caching.CachingAspect     : Caching aspect applied for cache operations with key /users/{id}.com.hpe.settle.swagger.controller.UserController.putUser.DefaultGenericTypeNamingStrategy
+2017-03-30 07:36:15.116  INFO 11224 --- [main] s.w.ClassOrApiAnnotationResourceGrouping : Group for method putUser was user-controller
+2017-03-30 07:36:15.122  INFO 11224 --- [main] s.w.ClassOrApiAnnotationResourceGrouping : Group for method putUser was user-controller
+2017-03-30 07:36:15.545  INFO 11224 --- [main] s.b.c.e.t.TomcatEmbeddedServletContainer : Tomcat started on port(s): 8881 (http)
+2017-03-30 07:36:15.555  INFO 11224 --- [main] com.hpe.settle.swagger.Application       : Started Application in 9.846 seconds (JVM running for 10.505)
+2017-03-30 07:36:19.659  INFO 11224 --- [http-nio-8881-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring FrameworkServlet 'dispatcherServlet'
+2017-03-30 07:36:19.659  INFO 11224 --- [http-nio-8881-exec-1] o.s.web.servlet.DispatcherServlet        : FrameworkServlet 'dispatcherServlet': initialization started
+2017-03-30 07:36:19.710  INFO 11224 --- [http-nio-8881-exec-1] o.s.web.servlet.DispatcherServlet        : FrameworkServlet 'dispatcherServlet': initialization completed in 51 ms
+2017-03-30 07:38:45.394  INFO 9188 --- [main] com.hpe.settle.swagger.Application       : Starting Application on LLAHN-PC with PID 9188 (F:\Li_Lei\Project\SpringBoot-Demo\hpe-settle-parent\hpe-settle-swagger\target\classes started by Administrator in F:\Li_Lei\Project\SpringBoot-Demo\hpe-settle-parent\hpe-settle-swagger)
+2017-03-30 07:38:45.403  INFO 9188 --- [main] com.hpe.settle.swagger.Application       : The following profiles are active: dev
+2017-03-30 07:38:45.508  INFO 9188 --- [main] ationConfigEmbeddedWebApplicationContext : Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@24105dc5: startup date [Thu Mar 30 07:38:45 CST 2017]; root of context hierarchy
+2017-03-30 07:38:50.936  INFO 9188 --- [main] s.b.c.e.t.TomcatEmbeddedServletContainer : Tomcat initialized with port(s): 8881 (http)
+2017-03-30 07:38:50.962  INFO 9188 --- [main] o.apache.catalina.core.StandardService   : Starting service Tomcat
+2017-03-30 07:38:50.964  INFO 9188 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet Engine: Apache Tomcat/8.0.33
+2017-03-30 07:38:51.177  INFO 9188 --- [localhost-startStop-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2017-03-30 07:38:51.178  INFO 9188 --- [localhost-startStop-1] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 5676 ms
+2017-03-30 07:38:51.886  INFO 9188 --- [localhost-startStop-1] o.s.b.c.e.ServletRegistrationBean        : Mapping servlet: 'dispatcherServlet' to [/]
+2017-03-30 07:38:51.904  INFO 9188 --- [localhost-startStop-1] o.s.b.c.embedded.FilterRegistrationBean  : Mapping filter: 'characterEncodingFilter' to: [/*]
+2017-03-30 07:38:51.905  INFO 9188 --- [localhost-startStop-1] o.s.b.c.embedded.FilterRegistrationBean  : Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2017-03-30 07:38:51.906  INFO 9188 --- [localhost-startStop-1] o.s.b.c.embedded.FilterRegistrationBean  : Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2017-03-30 07:38:51.906  INFO 9188 --- [localhost-startStop-1] o.s.b.c.embedded.FilterRegistrationBean  : Mapping filter: 'requestContextFilter' to: [/*]
+2017-03-30 07:38:53.568  INFO 9188 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/users],methods=[POST]}" onto public java.lang.String com.hpe.settle.swagger.controller.UserController.postUser(com.hpe.settle.swagger.model.User)
+2017-03-30 07:38:53.571  INFO 9188 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/users],methods=[GET]}" onto public java.util.List<com.hpe.settle.swagger.model.User> com.hpe.settle.swagger.controller.UserController.getUserList()
+2017-03-30 07:38:53.573  INFO 9188 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/users/{id}],methods=[GET]}" onto public com.hpe.settle.swagger.model.User com.hpe.settle.swagger.controller.UserController.getUser(java.lang.Long)
+2017-03-30 07:38:53.574  INFO 9188 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/users/{id}],methods=[PUT]}" onto public java.lang.String com.hpe.settle.swagger.controller.UserController.putUser(java.lang.Long,com.hpe.settle.swagger.model.User)
+2017-03-30 07:38:53.575  INFO 9188 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/users/{id}],methods=[DELETE]}" onto public java.lang.String com.hpe.settle.swagger.controller.UserController.deleteUser(java.lang.Long)
+2017-03-30 07:38:53.576  INFO 9188 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/v2/api-docs],methods=[GET]}" onto public org.springframework.http.ResponseEntity<springfox.documentation.spring.web.json.Json> springfox.documentation.swagger2.web.Swagger2Controller.getDocumentation(java.lang.String)
+2017-03-30 07:38:53.584  INFO 9188 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/configuration/security]}" onto org.springframework.http.ResponseEntity<springfox.documentation.swagger.web.SecurityConfiguration> springfox.documentation.swagger.web.ApiResourceController.securityConfiguration()
+2017-03-30 07:38:53.585  INFO 9188 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/swagger-resources]}" onto org.springframework.http.ResponseEntity<java.util.List<springfox.documentation.swagger.web.SwaggerResource>> springfox.documentation.swagger.web.ApiResourceController.swaggerResources()
+2017-03-30 07:38:53.587  INFO 9188 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/configuration/ui]}" onto org.springframework.http.ResponseEntity<springfox.documentation.swagger.web.UiConfiguration> springfox.documentation.swagger.web.ApiResourceController.uiConfiguration()
+2017-03-30 07:38:53.600  INFO 9188 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2017-03-30 07:38:53.601  INFO 9188 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2017-03-30 07:38:54.252  INFO 9188 --- [main] s.w.s.m.m.a.RequestMappingHandlerAdapter : Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@24105dc5: startup date [Thu Mar 30 07:38:45 CST 2017]; root of context hierarchy
+2017-03-30 07:38:54.428  INFO 9188 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2017-03-30 07:38:54.428  INFO 9188 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2017-03-30 07:38:54.532  INFO 9188 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2017-03-30 07:38:55.126  INFO 9188 --- [main] o.s.j.e.a.AnnotationMBeanExporter        : Registering beans for JMX exposure on startup
+2017-03-30 07:38:55.155  INFO 9188 --- [main] d.s.w.p.DocumentationPluginsBootstrapper : Context refreshed
+2017-03-30 07:38:55.198  INFO 9188 --- [main] d.s.w.p.DocumentationPluginsBootstrapper : Found {0} custom documentation plugin(s)
+2017-03-30 07:38:55.215  INFO 9188 --- [main] s.d.s.w.s.ApiListingReferenceScanner     : Scanning for api listing references
+2017-03-30 07:38:55.223  INFO 9188 --- [main] s.w.ClassOrApiAnnotationResourceGrouping : Group for method getUser was user-controller
+2017-03-30 07:38:55.227  INFO 9188 --- [main] s.d.s.w.s.ApiListingReferenceScanner     : Request mapping: getUser belongs to groups: [[ResourceGroup{groupName='user-controller', position=0, controller=com.hpe.settle.swagger.controller.UserController}]] 
+2017-03-30 07:38:55.230  INFO 9188 --- [main] s.w.ClassOrApiAnnotationResourceGrouping : Group for method putUser was user-controller
+2017-03-30 07:38:55.230  INFO 9188 --- [main] s.d.s.w.s.ApiListingReferenceScanner     : Request mapping: putUser belongs to groups: [[ResourceGroup{groupName='user-controller', position=0, controller=com.hpe.settle.swagger.controller.UserController}]] 
+2017-03-30 07:38:55.231  INFO 9188 --- [main] s.w.ClassOrApiAnnotationResourceGrouping : Group for method deleteUser was user-controller
+2017-03-30 07:38:55.232  INFO 9188 --- [main] s.d.s.w.s.ApiListingReferenceScanner     : Request mapping: deleteUser belongs to groups: [[ResourceGroup{groupName='user-controller', position=0, controller=com.hpe.settle.swagger.controller.UserController}]] 
+2017-03-30 07:38:55.233  INFO 9188 --- [main] s.w.ClassOrApiAnnotationResourceGrouping : Group for method postUser was user-controller
+2017-03-30 07:38:55.242  INFO 9188 --- [main] s.d.s.w.s.ApiListingReferenceScanner     : Request mapping: postUser belongs to groups: [[ResourceGroup{groupName='user-controller', position=0, controller=com.hpe.settle.swagger.controller.UserController}]] 
+2017-03-30 07:38:55.243  INFO 9188 --- [main] s.w.ClassOrApiAnnotationResourceGrouping : Group for method getUserList was user-controller
+2017-03-30 07:38:55.243  INFO 9188 --- [main] s.d.s.w.s.ApiListingReferenceScanner     : Request mapping: getUserList belongs to groups: [[ResourceGroup{groupName='user-controller', position=0, controller=com.hpe.settle.swagger.controller.UserController}]] 
+2017-03-30 07:38:55.249  INFO 9188 --- [main] s.d.s.w.s.ApiListingReferenceScanner     : Created resource listing Path: /default/user-controller Description: user-controller Position: 0
+2017-03-30 07:38:55.287  INFO 9188 --- [main] s.d.schema.ModelContextKeyGenerator      : Cache Key Generated: java.lang.String(true)
+2017-03-30 07:38:55.288  INFO 9188 --- [main] s.d.spring.web.caching.CachingAspect     : Caching aspect applied for cache models with key java.lang.String(true)
+2017-03-30 07:38:55.296  INFO 9188 --- [main] s.d.schema.ModelContextKeyGenerator      : Cache Key Generated: java.lang.String(true)
+2017-03-30 07:38:55.296  INFO 9188 --- [main] s.d.spring.web.caching.CachingAspect     : Caching aspect applied for cache modelDependencies with key java.lang.String(true)
+2017-03-30 07:38:55.313  INFO 9188 --- [main] s.d.spring.web.OperationsKeyGenerator    : Cache key generated: /users/{id}.com.hpe.settle.swagger.controller.UserController.deleteUser.DefaultGenericTypeNamingStrategy
+2017-03-30 07:38:55.314  INFO 9188 --- [main] s.d.spring.web.caching.CachingAspect     : Caching aspect applied for cache operations with key /users/{id}.com.hpe.settle.swagger.controller.UserController.deleteUser.DefaultGenericTypeNamingStrategy
+2017-03-30 07:38:55.359  INFO 9188 --- [main] s.w.ClassOrApiAnnotationResourceGrouping : Group for method deleteUser was user-controller
+2017-03-30 07:38:55.413  INFO 9188 --- [main] s.w.ClassOrApiAnnotationResourceGrouping : Group for method deleteUser was user-controller
+2017-03-30 07:38:55.441  INFO 9188 --- [main] s.d.schema.ModelContextKeyGenerator      : Cache Key Generated: com.hpe.settle.swagger.model.User(true)
+2017-03-30 07:38:55.443  INFO 9188 --- [main] s.d.spring.web.caching.CachingAspect     : Caching aspect applied for cache models with key com.hpe.settle.swagger.model.User(true)
+2017-03-30 07:38:55.447  INFO 9188 --- [main] s.d.s.p.ModelPropertiesKeyGenerator      : Cache key generated: com.hpe.settle.swagger.model.User(true)
+2017-03-30 07:38:55.448  INFO 9188 --- [main] s.d.spring.web.caching.CachingAspect     : Caching aspect applied for cache modelProperties with key com.hpe.settle.swagger.model.User(true)
+2017-03-30 07:38:55.856  INFO 9188 --- [main] s.d.schema.ModelContextKeyGenerator      : Cache Key Generated: com.hpe.settle.swagger.model.User(true)
+2017-03-30 07:38:55.857  INFO 9188 --- [main] s.d.spring.web.caching.CachingAspect     : Caching aspect applied for cache modelDependencies with key com.hpe.settle.swagger.model.User(true)
+2017-03-30 07:38:55.858  INFO 9188 --- [main] s.d.s.p.ModelPropertiesKeyGenerator      : Cache key generated: com.hpe.settle.swagger.model.User(true)
+2017-03-30 07:38:55.858  INFO 9188 --- [main] s.d.spring.web.caching.CachingAspect     : Caching aspect applied for cache modelProperties with key com.hpe.settle.swagger.model.User(true)
+2017-03-30 07:38:55.860  INFO 9188 --- [main] s.d.spring.web.OperationsKeyGenerator    : Cache key generated: /users/{id}.com.hpe.settle.swagger.controller.UserController.getUser.DefaultGenericTypeNamingStrategy
+2017-03-30 07:38:55.860  INFO 9188 --- [main] s.d.spring.web.caching.CachingAspect     : Caching aspect applied for cache operations with key /users/{id}.com.hpe.settle.swagger.controller.UserController.getUser.DefaultGenericTypeNamingStrategy
+2017-03-30 07:38:55.864  INFO 9188 --- [main] s.w.ClassOrApiAnnotationResourceGrouping : Group for method getUser was user-controller
+2017-03-30 07:38:55.871  INFO 9188 --- [main] s.w.ClassOrApiAnnotationResourceGrouping : Group for method getUser was user-controller
+2017-03-30 07:38:55.877  INFO 9188 --- [main] s.d.schema.ModelContextKeyGenerator      : Cache Key Generated: java.util.List<com.hpe.settle.swagger.model.User>(true)
+2017-03-30 07:38:55.877  INFO 9188 --- [main] s.d.spring.web.caching.CachingAspect     : Caching aspect applied for cache models with key java.util.List<com.hpe.settle.swagger.model.User>(true)
+2017-03-30 07:38:55.878  INFO 9188 --- [main] s.d.schema.ModelContextKeyGenerator      : Cache Key Generated: java.util.List<com.hpe.settle.swagger.model.User>(true)
+2017-03-30 07:38:55.878  INFO 9188 --- [main] s.d.spring.web.caching.CachingAspect     : Caching aspect applied for cache modelDependencies with key java.util.List<com.hpe.settle.swagger.model.User>(true)
+2017-03-30 07:38:55.879  INFO 9188 --- [main] s.d.s.p.ModelPropertiesKeyGenerator      : Cache key generated: com.hpe.settle.swagger.model.User(true)
+2017-03-30 07:38:55.880  INFO 9188 --- [main] s.d.spring.web.caching.CachingAspect     : Caching aspect applied for cache modelProperties with key com.hpe.settle.swagger.model.User(true)
+2017-03-30 07:38:55.881  INFO 9188 --- [main] s.d.s.p.ModelPropertiesKeyGenerator      : Cache key generated: java.util.List<com.hpe.settle.swagger.model.User>(true)
+2017-03-30 07:38:55.881  INFO 9188 --- [main] s.d.spring.web.caching.CachingAspect     : Caching aspect applied for cache modelProperties with key java.util.List<com.hpe.settle.swagger.model.User>(true)
+2017-03-30 07:38:55.886  INFO 9188 --- [main] s.d.s.p.ModelPropertiesKeyGenerator      : Cache key generated: com.hpe.settle.swagger.model.User(true)
+2017-03-30 07:38:55.887  INFO 9188 --- [main] s.d.spring.web.caching.CachingAspect     : Caching aspect applied for cache modelProperties with key com.hpe.settle.swagger.model.User(true)
+2017-03-30 07:38:55.891  INFO 9188 --- [main] s.d.spring.web.OperationsKeyGenerator    : Cache key generated: /users.com.hpe.settle.swagger.controller.UserController.getUserList.DefaultGenericTypeNamingStrategy
+2017-03-30 07:38:55.894  INFO 9188 --- [main] s.d.spring.web.caching.CachingAspect     : Caching aspect applied for cache operations with key /users.com.hpe.settle.swagger.controller.UserController.getUserList.DefaultGenericTypeNamingStrategy
+2017-03-30 07:38:55.898  INFO 9188 --- [main] s.w.ClassOrApiAnnotationResourceGrouping : Group for method getUserList was user-controller
+2017-03-30 07:38:55.916  INFO 9188 --- [main] s.w.ClassOrApiAnnotationResourceGrouping : Group for method getUserList was user-controller
+2017-03-30 07:38:55.926  INFO 9188 --- [main] s.d.schema.ModelContextKeyGenerator      : Cache Key Generated: java.lang.String(true)
+2017-03-30 07:38:55.926  INFO 9188 --- [main] s.d.spring.web.caching.CachingAspect     : Caching aspect applied for cache models with key java.lang.String(true)
+2017-03-30 07:38:55.926  INFO 9188 --- [main] s.d.schema.ModelContextKeyGenerator      : Cache Key Generated: java.lang.String(true)
+2017-03-30 07:38:55.927  INFO 9188 --- [main] s.d.spring.web.caching.CachingAspect     : Caching aspect applied for cache modelDependencies with key java.lang.String(true)
+2017-03-30 07:38:55.928  INFO 9188 --- [main] s.d.schema.ModelContextKeyGenerator      : Cache Key Generated: com.hpe.settle.swagger.model.User(false)
+2017-03-30 07:38:55.928  INFO 9188 --- [main] s.d.spring.web.caching.CachingAspect     : Caching aspect applied for cache models with key com.hpe.settle.swagger.model.User(false)
+2017-03-30 07:38:55.929  INFO 9188 --- [main] s.d.s.p.ModelPropertiesKeyGenerator      : Cache key generated: com.hpe.settle.swagger.model.User(false)
+2017-03-30 07:38:55.930  INFO 9188 --- [main] s.d.spring.web.caching.CachingAspect     : Caching aspect applied for cache modelProperties with key com.hpe.settle.swagger.model.User(false)
+2017-03-30 07:38:55.936  INFO 9188 --- [main] s.d.schema.ModelContextKeyGenerator      : Cache Key Generated: com.hpe.settle.swagger.model.User(false)
+2017-03-30 07:38:55.936  INFO 9188 --- [main] s.d.spring.web.caching.CachingAspect     : Caching aspect applied for cache modelDependencies with key com.hpe.settle.swagger.model.User(false)
+2017-03-30 07:38:55.937  INFO 9188 --- [main] s.d.s.p.ModelPropertiesKeyGenerator      : Cache key generated: com.hpe.settle.swagger.model.User(false)
+2017-03-30 07:38:55.937  INFO 9188 --- [main] s.d.spring.web.caching.CachingAspect     : Caching aspect applied for cache modelProperties with key com.hpe.settle.swagger.model.User(false)
+2017-03-30 07:38:55.937  INFO 9188 --- [main] s.d.spring.web.OperationsKeyGenerator    : Cache key generated: /users.com.hpe.settle.swagger.controller.UserController.postUser.DefaultGenericTypeNamingStrategy
+2017-03-30 07:38:55.938  INFO 9188 --- [main] s.d.spring.web.caching.CachingAspect     : Caching aspect applied for cache operations with key /users.com.hpe.settle.swagger.controller.UserController.postUser.DefaultGenericTypeNamingStrategy
+2017-03-30 07:38:55.955  INFO 9188 --- [main] s.w.ClassOrApiAnnotationResourceGrouping : Group for method postUser was user-controller
+2017-03-30 07:38:55.965  INFO 9188 --- [main] s.w.ClassOrApiAnnotationResourceGrouping : Group for method postUser was user-controller
+2017-03-30 07:38:55.971  INFO 9188 --- [main] s.d.schema.ModelContextKeyGenerator      : Cache Key Generated: java.lang.String(true)
+2017-03-30 07:38:55.971  INFO 9188 --- [main] s.d.spring.web.caching.CachingAspect     : Caching aspect applied for cache models with key java.lang.String(true)
+2017-03-30 07:38:55.971  INFO 9188 --- [main] s.d.schema.ModelContextKeyGenerator      : Cache Key Generated: java.lang.String(true)
+2017-03-30 07:38:55.972  INFO 9188 --- [main] s.d.spring.web.caching.CachingAspect     : Caching aspect applied for cache modelDependencies with key java.lang.String(true)
+2017-03-30 07:38:55.972  INFO 9188 --- [main] s.d.schema.ModelContextKeyGenerator      : Cache Key Generated: com.hpe.settle.swagger.model.User(false)
+2017-03-30 07:38:55.972  INFO 9188 --- [main] s.d.spring.web.caching.CachingAspect     : Caching aspect applied for cache models with key com.hpe.settle.swagger.model.User(false)
+2017-03-30 07:38:55.973  INFO 9188 --- [main] s.d.schema.ModelContextKeyGenerator      : Cache Key Generated: com.hpe.settle.swagger.model.User(false)
+2017-03-30 07:38:55.973  INFO 9188 --- [main] s.d.spring.web.caching.CachingAspect     : Caching aspect applied for cache modelDependencies with key com.hpe.settle.swagger.model.User(false)
+2017-03-30 07:38:55.973  INFO 9188 --- [main] s.d.spring.web.OperationsKeyGenerator    : Cache key generated: /users/{id}.com.hpe.settle.swagger.controller.UserController.putUser.DefaultGenericTypeNamingStrategy
+2017-03-30 07:38:55.973  INFO 9188 --- [main] s.d.spring.web.caching.CachingAspect     : Caching aspect applied for cache operations with key /users/{id}.com.hpe.settle.swagger.controller.UserController.putUser.DefaultGenericTypeNamingStrategy
+2017-03-30 07:38:55.979  INFO 9188 --- [main] s.w.ClassOrApiAnnotationResourceGrouping : Group for method putUser was user-controller
+2017-03-30 07:38:55.985  INFO 9188 --- [main] s.w.ClassOrApiAnnotationResourceGrouping : Group for method putUser was user-controller
+2017-03-30 07:38:56.160  INFO 9188 --- [main] s.b.c.e.t.TomcatEmbeddedServletContainer : Tomcat started on port(s): 8881 (http)
+2017-03-30 07:38:56.171  INFO 9188 --- [main] com.hpe.settle.swagger.Application       : Started Application in 11.596 seconds (JVM running for 12.466)
+2017-03-30 07:39:07.735  INFO 9188 --- [http-nio-8881-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring FrameworkServlet 'dispatcherServlet'
+2017-03-30 07:39:07.737  INFO 9188 --- [http-nio-8881-exec-1] o.s.web.servlet.DispatcherServlet        : FrameworkServlet 'dispatcherServlet': initialization started
+2017-03-30 07:39:07.775  INFO 9188 --- [http-nio-8881-exec-1] o.s.web.servlet.DispatcherServlet        : FrameworkServlet 'dispatcherServlet': initialization completed in 38 ms
+2017-03-30 07:56:36.228  WARN 9188 --- [http-nio-8881-exec-2] o.s.web.servlet.PageNotFound             : Request method 'POST' not supported
+2017-03-30 07:57:50.255  WARN 9188 --- [http-nio-8881-exec-3] o.s.web.servlet.PageNotFound             : Request method 'POST' not supported
+2017-03-30 07:57:52.032  WARN 9188 --- [http-nio-8881-exec-4] o.s.web.servlet.PageNotFound             : Request method 'POST' not supported
+2017-03-30 07:58:22.351  WARN 9188 --- [http-nio-8881-exec-6] o.s.web.servlet.PageNotFound             : Request method 'POST' not supported
+2017-03-30 08:13:55.194  INFO 1812 --- [main] com.hpe.settle.swagger.Application       : Starting Application on LLAHN-PC with PID 1812 (F:\Li_Lei\Project\SpringBoot-Demo\hpe-settle-parent\hpe-settle-swagger\target\classes started by Administrator in F:\Li_Lei\Project\SpringBoot-Demo\hpe-settle-parent\hpe-settle-swagger)
+2017-03-30 08:13:55.204  INFO 1812 --- [main] com.hpe.settle.swagger.Application       : The following profiles are active: dev
+2017-03-30 08:13:55.344  INFO 1812 --- [main] ationConfigEmbeddedWebApplicationContext : Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@41488b16: startup date [Thu Mar 30 08:13:55 CST 2017]; root of context hierarchy
+2017-03-30 08:14:01.339  INFO 1812 --- [main] s.b.c.e.t.TomcatEmbeddedServletContainer : Tomcat initialized with port(s): 8881 (http)
+2017-03-30 08:14:01.374  INFO 1812 --- [main] o.apache.catalina.core.StandardService   : Starting service Tomcat
+2017-03-30 08:14:01.376  INFO 1812 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet Engine: Apache Tomcat/8.0.33
+2017-03-30 08:14:01.621  INFO 1812 --- [localhost-startStop-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2017-03-30 08:14:01.622  INFO 1812 --- [localhost-startStop-1] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 6289 ms
+2017-03-30 08:14:02.354  INFO 1812 --- [localhost-startStop-1] o.s.b.c.e.ServletRegistrationBean        : Mapping servlet: 'dispatcherServlet' to [/]
+2017-03-30 08:14:02.365  INFO 1812 --- [localhost-startStop-1] o.s.b.c.embedded.FilterRegistrationBean  : Mapping filter: 'characterEncodingFilter' to: [/*]
+2017-03-30 08:14:02.366  INFO 1812 --- [localhost-startStop-1] o.s.b.c.embedded.FilterRegistrationBean  : Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2017-03-30 08:14:02.367  INFO 1812 --- [localhost-startStop-1] o.s.b.c.embedded.FilterRegistrationBean  : Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2017-03-30 08:14:02.367  INFO 1812 --- [localhost-startStop-1] o.s.b.c.embedded.FilterRegistrationBean  : Mapping filter: 'requestContextFilter' to: [/*]
+2017-03-30 08:14:04.096  INFO 1812 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/users],methods=[GET]}" onto public java.util.List<com.hpe.settle.swagger.model.User> com.hpe.settle.swagger.controller.UserController.getUserList()
+2017-03-30 08:14:04.100  INFO 1812 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/users],methods=[POST]}" onto public java.lang.String com.hpe.settle.swagger.controller.UserController.postUser(com.hpe.settle.swagger.model.User)
+2017-03-30 08:14:04.101  INFO 1812 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/users/{id}],methods=[GET]}" onto public com.hpe.settle.swagger.model.User com.hpe.settle.swagger.controller.UserController.getUser(java.lang.Long)
+2017-03-30 08:14:04.104  INFO 1812 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/users/{id}],methods=[PUT]}" onto public java.lang.String com.hpe.settle.swagger.controller.UserController.putUser(java.lang.Long,com.hpe.settle.swagger.model.User)
+2017-03-30 08:14:04.105  INFO 1812 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/users/{id}],methods=[DELETE]}" onto public java.lang.String com.hpe.settle.swagger.controller.UserController.deleteUser(java.lang.Long)
+2017-03-30 08:14:04.107  INFO 1812 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/v2/api-docs],methods=[GET]}" onto public org.springframework.http.ResponseEntity<springfox.documentation.spring.web.json.Json> springfox.documentation.swagger2.web.Swagger2Controller.getDocumentation(java.lang.String)
+2017-03-30 08:14:04.136  INFO 1812 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/configuration/ui]}" onto org.springframework.http.ResponseEntity<springfox.documentation.swagger.web.UiConfiguration> springfox.documentation.swagger.web.ApiResourceController.uiConfiguration()
+2017-03-30 08:14:04.137  INFO 1812 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/swagger-resources]}" onto org.springframework.http.ResponseEntity<java.util.List<springfox.documentation.swagger.web.SwaggerResource>> springfox.documentation.swagger.web.ApiResourceController.swaggerResources()
+2017-03-30 08:14:04.139  INFO 1812 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/configuration/security]}" onto org.springframework.http.ResponseEntity<springfox.documentation.swagger.web.SecurityConfiguration> springfox.documentation.swagger.web.ApiResourceController.securityConfiguration()
+2017-03-30 08:14:04.149  INFO 1812 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2017-03-30 08:14:04.149  INFO 1812 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2017-03-30 08:14:04.781  INFO 1812 --- [main] s.w.s.m.m.a.RequestMappingHandlerAdapter : Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@41488b16: startup date [Thu Mar 30 08:13:55 CST 2017]; root of context hierarchy
+2017-03-30 08:14:04.949  INFO 1812 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2017-03-30 08:14:04.949  INFO 1812 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2017-03-30 08:14:05.063  INFO 1812 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2017-03-30 08:14:05.669  INFO 1812 --- [main] o.s.j.e.a.AnnotationMBeanExporter        : Registering beans for JMX exposure on startup
+2017-03-30 08:14:05.702  INFO 1812 --- [main] d.s.w.p.DocumentationPluginsBootstrapper : Context refreshed
+2017-03-30 08:14:05.762  INFO 1812 --- [main] d.s.w.p.DocumentationPluginsBootstrapper : Found {0} custom documentation plugin(s)
+2017-03-30 08:14:05.781  INFO 1812 --- [main] s.d.s.w.s.ApiListingReferenceScanner     : Scanning for api listing references
+2017-03-30 08:14:05.803  INFO 1812 --- [main] s.w.ClassOrApiAnnotationResourceGrouping : Group for method getUser was user-controller
+2017-03-30 08:14:05.808  INFO 1812 --- [main] s.d.s.w.s.ApiListingReferenceScanner     : Request mapping: getUser belongs to groups: [[ResourceGroup{groupName='user-controller', position=0, controller=com.hpe.settle.swagger.controller.UserController}]] 
+2017-03-30 08:14:05.814  INFO 1812 --- [main] s.w.ClassOrApiAnnotationResourceGrouping : Group for method putUser was user-controller
+2017-03-30 08:14:05.815  INFO 1812 --- [main] s.d.s.w.s.ApiListingReferenceScanner     : Request mapping: putUser belongs to groups: [[ResourceGroup{groupName='user-controller', position=0, controller=com.hpe.settle.swagger.controller.UserController}]] 
+2017-03-30 08:14:05.819  INFO 1812 --- [main] s.w.ClassOrApiAnnotationResourceGrouping : Group for method deleteUser was user-controller
+2017-03-30 08:14:05.822  INFO 1812 --- [main] s.d.s.w.s.ApiListingReferenceScanner     : Request mapping: deleteUser belongs to groups: [[ResourceGroup{groupName='user-controller', position=0, controller=com.hpe.settle.swagger.controller.UserController}]] 
+2017-03-30 08:14:05.823  INFO 1812 --- [main] s.w.ClassOrApiAnnotationResourceGrouping : Group for method getUserList was user-controller
+2017-03-30 08:14:05.824  INFO 1812 --- [main] s.d.s.w.s.ApiListingReferenceScanner     : Request mapping: getUserList belongs to groups: [[ResourceGroup{groupName='user-controller', position=0, controller=com.hpe.settle.swagger.controller.UserController}]] 
+2017-03-30 08:14:05.825  INFO 1812 --- [main] s.w.ClassOrApiAnnotationResourceGrouping : Group for method postUser was user-controller
+2017-03-30 08:14:05.826  INFO 1812 --- [main] s.d.s.w.s.ApiListingReferenceScanner     : Request mapping: postUser belongs to groups: [[ResourceGroup{groupName='user-controller', position=0, controller=com.hpe.settle.swagger.controller.UserController}]] 
+2017-03-30 08:14:05.835  INFO 1812 --- [main] s.d.s.w.s.ApiListingReferenceScanner     : Created resource listing Path: /default/user-controller Description: user-controller Position: 0
+2017-03-30 08:14:05.883  INFO 1812 --- [main] s.d.schema.ModelContextKeyGenerator      : Cache Key Generated: java.lang.String(true)
+2017-03-30 08:14:05.883  INFO 1812 --- [main] s.d.spring.web.caching.CachingAspect     : Caching aspect applied for cache models with key java.lang.String(true)
+2017-03-30 08:14:05.893  INFO 1812 --- [main] s.d.schema.ModelContextKeyGenerator      : Cache Key Generated: java.lang.String(true)
+2017-03-30 08:14:05.893  INFO 1812 --- [main] s.d.spring.web.caching.CachingAspect     : Caching aspect applied for cache modelDependencies with key java.lang.String(true)
+2017-03-30 08:14:05.916  INFO 1812 --- [main] s.d.spring.web.OperationsKeyGenerator    : Cache key generated: /users/{id}.com.hpe.settle.swagger.controller.UserController.deleteUser.DefaultGenericTypeNamingStrategy
+2017-03-30 08:14:05.916  INFO 1812 --- [main] s.d.spring.web.caching.CachingAspect     : Caching aspect applied for cache operations with key /users/{id}.com.hpe.settle.swagger.controller.UserController.deleteUser.DefaultGenericTypeNamingStrategy
+2017-03-30 08:14:05.960  INFO 1812 --- [main] s.w.ClassOrApiAnnotationResourceGrouping : Group for method deleteUser was user-controller
+2017-03-30 08:14:06.021  INFO 1812 --- [main] s.w.ClassOrApiAnnotationResourceGrouping : Group for method deleteUser was user-controller
+2017-03-30 08:14:06.046  INFO 1812 --- [main] s.d.schema.ModelContextKeyGenerator      : Cache Key Generated: com.hpe.settle.swagger.model.User(true)
+2017-03-30 08:14:06.046  INFO 1812 --- [main] s.d.spring.web.caching.CachingAspect     : Caching aspect applied for cache models with key com.hpe.settle.swagger.model.User(true)
+2017-03-30 08:14:06.052  INFO 1812 --- [main] s.d.s.p.ModelPropertiesKeyGenerator      : Cache key generated: com.hpe.settle.swagger.model.User(true)
+2017-03-30 08:14:06.054  INFO 1812 --- [main] s.d.spring.web.caching.CachingAspect     : Caching aspect applied for cache modelProperties with key com.hpe.settle.swagger.model.User(true)
+2017-03-30 08:14:06.445  INFO 1812 --- [main] s.d.schema.ModelContextKeyGenerator      : Cache Key Generated: com.hpe.settle.swagger.model.User(true)
+2017-03-30 08:14:06.445  INFO 1812 --- [main] s.d.spring.web.caching.CachingAspect     : Caching aspect applied for cache modelDependencies with key com.hpe.settle.swagger.model.User(true)
+2017-03-30 08:14:06.446  INFO 1812 --- [main] s.d.s.p.ModelPropertiesKeyGenerator      : Cache key generated: com.hpe.settle.swagger.model.User(true)
+2017-03-30 08:14:06.447  INFO 1812 --- [main] s.d.spring.web.caching.CachingAspect     : Caching aspect applied for cache modelProperties with key com.hpe.settle.swagger.model.User(true)
+2017-03-30 08:14:06.448  INFO 1812 --- [main] s.d.spring.web.OperationsKeyGenerator    : Cache key generated: /users/{id}.com.hpe.settle.swagger.controller.UserController.getUser.DefaultGenericTypeNamingStrategy
+2017-03-30 08:14:06.449  INFO 1812 --- [main] s.d.spring.web.caching.CachingAspect     : Caching aspect applied for cache operations with key /users/{id}.com.hpe.settle.swagger.controller.UserController.getUser.DefaultGenericTypeNamingStrategy
+2017-03-30 08:14:06.458  INFO 1812 --- [main] s.w.ClassOrApiAnnotationResourceGrouping : Group for method getUser was user-controller
+2017-03-30 08:14:06.465  INFO 1812 --- [main] s.w.ClassOrApiAnnotationResourceGrouping : Group for method getUser was user-controller
+2017-03-30 08:14:06.471  INFO 1812 --- [main] s.d.schema.ModelContextKeyGenerator      : Cache Key Generated: java.util.List<com.hpe.settle.swagger.model.User>(true)
+2017-03-30 08:14:06.473  INFO 1812 --- [main] s.d.spring.web.caching.CachingAspect     : Caching aspect applied for cache models with key java.util.List<com.hpe.settle.swagger.model.User>(true)
+2017-03-30 08:14:06.474  INFO 1812 --- [main] s.d.schema.ModelContextKeyGenerator      : Cache Key Generated: java.util.List<com.hpe.settle.swagger.model.User>(true)
+2017-03-30 08:14:06.475  INFO 1812 --- [main] s.d.spring.web.caching.CachingAspect     : Caching aspect applied for cache modelDependencies with key java.util.List<com.hpe.settle.swagger.model.User>(true)
+2017-03-30 08:14:06.476  INFO 1812 --- [main] s.d.s.p.ModelPropertiesKeyGenerator      : Cache key generated: com.hpe.settle.swagger.model.User(true)
+2017-03-30 08:14:06.476  INFO 1812 --- [main] s.d.spring.web.caching.CachingAspect     : Caching aspect applied for cache modelProperties with key com.hpe.settle.swagger.model.User(true)
+2017-03-30 08:14:06.477  INFO 1812 --- [main] s.d.s.p.ModelPropertiesKeyGenerator      : Cache key generated: java.util.List<com.hpe.settle.swagger.model.User>(true)
+2017-03-30 08:14:06.477  INFO 1812 --- [main] s.d.spring.web.caching.CachingAspect     : Caching aspect applied for cache modelProperties with key java.util.List<com.hpe.settle.swagger.model.User>(true)
+2017-03-30 08:14:06.481  INFO 1812 --- [main] s.d.s.p.ModelPropertiesKeyGenerator      : Cache key generated: com.hpe.settle.swagger.model.User(true)
+2017-03-30 08:14:06.484  INFO 1812 --- [main] s.d.spring.web.caching.CachingAspect     : Caching aspect applied for cache modelProperties with key com.hpe.settle.swagger.model.User(true)
+2017-03-30 08:14:06.486  INFO 1812 --- [main] s.d.spring.web.OperationsKeyGenerator    : Cache key generated: /users.com.hpe.settle.swagger.controller.UserController.getUserList.DefaultGenericTypeNamingStrategy
+2017-03-30 08:14:06.489  INFO 1812 --- [main] s.d.spring.web.caching.CachingAspect     : Caching aspect applied for cache operations with key /users.com.hpe.settle.swagger.controller.UserController.getUserList.DefaultGenericTypeNamingStrategy
+2017-03-30 08:14:06.493  INFO 1812 --- [main] s.w.ClassOrApiAnnotationResourceGrouping : Group for method getUserList was user-controller
+2017-03-30 08:14:06.517  INFO 1812 --- [main] s.w.ClassOrApiAnnotationResourceGrouping : Group for method getUserList was user-controller
+2017-03-30 08:14:06.531  INFO 1812 --- [main] s.d.schema.ModelContextKeyGenerator      : Cache Key Generated: java.lang.String(true)
+2017-03-30 08:14:06.532  INFO 1812 --- [main] s.d.spring.web.caching.CachingAspect     : Caching aspect applied for cache models with key java.lang.String(true)
+2017-03-30 08:14:06.532  INFO 1812 --- [main] s.d.schema.ModelContextKeyGenerator      : Cache Key Generated: java.lang.String(true)
+2017-03-30 08:14:06.533  INFO 1812 --- [main] s.d.spring.web.caching.CachingAspect     : Caching aspect applied for cache modelDependencies with key java.lang.String(true)
+2017-03-30 08:14:06.533  INFO 1812 --- [main] s.d.schema.ModelContextKeyGenerator      : Cache Key Generated: com.hpe.settle.swagger.model.User(false)
+2017-03-30 08:14:06.533  INFO 1812 --- [main] s.d.spring.web.caching.CachingAspect     : Caching aspect applied for cache models with key com.hpe.settle.swagger.model.User(false)
+2017-03-30 08:14:06.535  INFO 1812 --- [main] s.d.s.p.ModelPropertiesKeyGenerator      : Cache key generated: com.hpe.settle.swagger.model.User(false)
+2017-03-30 08:14:06.535  INFO 1812 --- [main] s.d.spring.web.caching.CachingAspect     : Caching aspect applied for cache modelProperties with key com.hpe.settle.swagger.model.User(false)
+2017-03-30 08:14:06.540  INFO 1812 --- [main] s.d.schema.ModelContextKeyGenerator      : Cache Key Generated: com.hpe.settle.swagger.model.User(false)
+2017-03-30 08:14:06.540  INFO 1812 --- [main] s.d.spring.web.caching.CachingAspect     : Caching aspect applied for cache modelDependencies with key com.hpe.settle.swagger.model.User(false)
+2017-03-30 08:14:06.541  INFO 1812 --- [main] s.d.s.p.ModelPropertiesKeyGenerator      : Cache key generated: com.hpe.settle.swagger.model.User(false)
+2017-03-30 08:14:06.541  INFO 1812 --- [main] s.d.spring.web.caching.CachingAspect     : Caching aspect applied for cache modelProperties with key com.hpe.settle.swagger.model.User(false)
+2017-03-30 08:14:06.542  INFO 1812 --- [main] s.d.spring.web.OperationsKeyGenerator    : Cache key generated: /users.com.hpe.settle.swagger.controller.UserController.postUser.DefaultGenericTypeNamingStrategy
+2017-03-30 08:14:06.542  INFO 1812 --- [main] s.d.spring.web.caching.CachingAspect     : Caching aspect applied for cache operations with key /users.com.hpe.settle.swagger.controller.UserController.postUser.DefaultGenericTypeNamingStrategy
+2017-03-30 08:14:06.553  INFO 1812 --- [main] s.w.ClassOrApiAnnotationResourceGrouping : Group for method postUser was user-controller
+2017-03-30 08:14:06.562  INFO 1812 --- [main] s.w.ClassOrApiAnnotationResourceGrouping : Group for method postUser was user-controller
+2017-03-30 08:14:06.568  INFO 1812 --- [main] s.d.schema.ModelContextKeyGenerator      : Cache Key Generated: java.lang.String(true)
+2017-03-30 08:14:06.568  INFO 1812 --- [main] s.d.spring.web.caching.CachingAspect     : Caching aspect applied for cache models with key java.lang.String(true)
+2017-03-30 08:14:06.568  INFO 1812 --- [main] s.d.schema.ModelContextKeyGenerator      : Cache Key Generated: java.lang.String(true)
+2017-03-30 08:14:06.569  INFO 1812 --- [main] s.d.spring.web.caching.CachingAspect     : Caching aspect applied for cache modelDependencies with key java.lang.String(true)
+2017-03-30 08:14:06.571  INFO 1812 --- [main] s.d.schema.ModelContextKeyGenerator      : Cache Key Generated: com.hpe.settle.swagger.model.User(false)
+2017-03-30 08:14:06.571  INFO 1812 --- [main] s.d.spring.web.caching.CachingAspect     : Caching aspect applied for cache models with key com.hpe.settle.swagger.model.User(false)
+2017-03-30 08:14:06.572  INFO 1812 --- [main] s.d.schema.ModelContextKeyGenerator      : Cache Key Generated: com.hpe.settle.swagger.model.User(false)
+2017-03-30 08:14:06.572  INFO 1812 --- [main] s.d.spring.web.caching.CachingAspect     : Caching aspect applied for cache modelDependencies with key com.hpe.settle.swagger.model.User(false)
+2017-03-30 08:14:06.572  INFO 1812 --- [main] s.d.spring.web.OperationsKeyGenerator    : Cache key generated: /users/{id}.com.hpe.settle.swagger.controller.UserController.putUser.DefaultGenericTypeNamingStrategy
+2017-03-30 08:14:06.573  INFO 1812 --- [main] s.d.spring.web.caching.CachingAspect     : Caching aspect applied for cache operations with key /users/{id}.com.hpe.settle.swagger.controller.UserController.putUser.DefaultGenericTypeNamingStrategy
+2017-03-30 08:14:06.581  INFO 1812 --- [main] s.w.ClassOrApiAnnotationResourceGrouping : Group for method putUser was user-controller
+2017-03-30 08:14:06.588  INFO 1812 --- [main] s.w.ClassOrApiAnnotationResourceGrouping : Group for method putUser was user-controller
+2017-03-30 08:14:06.760  INFO 1812 --- [main] s.b.c.e.t.TomcatEmbeddedServletContainer : Tomcat started on port(s): 8881 (http)
+2017-03-30 08:14:06.773  INFO 1812 --- [main] com.hpe.settle.swagger.Application       : Started Application in 12.454 seconds (JVM running for 13.265)
+2017-03-30 08:14:13.115  INFO 1812 --- [http-nio-8881-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring FrameworkServlet 'dispatcherServlet'
+2017-03-30 08:14:13.115  INFO 1812 --- [http-nio-8881-exec-1] o.s.web.servlet.DispatcherServlet        : FrameworkServlet 'dispatcherServlet': initialization started
+2017-03-30 08:14:13.150  INFO 1812 --- [http-nio-8881-exec-1] o.s.web.servlet.DispatcherServlet        : FrameworkServlet 'dispatcherServlet': initialization completed in 35 ms

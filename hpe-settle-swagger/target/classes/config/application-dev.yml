@@ -1,0 +1,20 @@
+server:
+  port: 8881
+  
+spring:
+  application:
+    name: EBTCE Trade Development
+  freemarker:
+    contentType: text/html
+    suffix: .ftl
+    templateLoaderPath: classpath:/templates/
+    templateEncoding: UTF-8
+    cache: true
+    
+logging:
+  path: /log/logs
+  file: demo.log
+swagger:
+  basePackage: com.hpe.settle.swagger.controller
+  version: 1.0
+  serviceUrl: http://localhost:8881

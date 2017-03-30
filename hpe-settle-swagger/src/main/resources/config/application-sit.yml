@@ -1,0 +1,11 @@
+server:
+  port: 9991
+  
+spring:
+  application:
+    name: EBTCE Trade Development
+    
+logging:
+  path: /log/logs
+  file: swagger.log
+  config: classpath:log/logback.xml

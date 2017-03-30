@@ -1,0 +1,16 @@
+server:
+  port: 8888
+  
+spring:
+  application:
+    name: EBTCE Trade Development
+  freemarker:
+    contentType: text/html
+    suffix: .ftl
+    templateLoaderPath: classpath:/templates/
+    templateEncoding: UTF-8
+    cache: true
+    
+logging:
+  path: /log/logs
+  file: demo.log
