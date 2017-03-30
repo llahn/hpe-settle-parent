@@ -1,9 +1,9 @@
 Manifest-Version: 1.0
 Implementation-Title: hpe-settle-demo
 Implementation-Version: 0.0.1-SNAPSHOT
-Built-By: lli10
+Built-By: Administrator
 Implementation-Vendor-Id: com.hpe.settle
-Build-Jdk: 1.8.0_102
+Build-Jdk: 1.8.0_101
 Created-By: Maven Integration for Eclipse
 Implementation-Vendor: Pivotal Software, Inc.
 
