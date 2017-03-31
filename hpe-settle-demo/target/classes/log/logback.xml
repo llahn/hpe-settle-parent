@@ -12,18 +12,15 @@
 		</encoder>
 	</appender>
 	<!-- 打印到日志文件 -->
-	<appender name="rollingFile"
-		class="ch.qos.logback.core.rolling.RollingFileAppender">
+	<appender name="rollingFile" class="ch.qos.logback.core.rolling.RollingFileAppender">
 		<rollingPolicy class="ch.qos.logback.core.rolling.TimeBasedRollingPolicy">
 			<!--日志输出位置 可相对、和绝对路径 -->
-			<fileNamePattern>${log_home}/demo.%d{yyyy-MM-dd}.log
-			</fileNamePattern>
+			<fileNamePattern>${log_home}/demo.%d{yyyy-MM-dd}.log</fileNamePattern>
 			<maxHistory>${maxHistory}</maxHistory>
 			<totalSizeCap>500MB</totalSizeCap>
 		</rollingPolicy>
 		<encoder>
-			<pattern>%date{HH:mm:ss.SSS} [%thread] %-5level %logger{36} - %msg%n
-			</pattern>
+			<pattern>%date{HH:mm:ss.SSS} [%thread] %-5level %logger{36} - %msg%n</pattern>
 		</encoder>
 	</appender>
 
