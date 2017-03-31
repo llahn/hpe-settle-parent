@@ -6,6 +6,9 @@ spring:
     name: EBTCE Trade Development
     
 logging:
+  config: classpath:log/logback.xml
   path: /log/logs
   file: demo.log
-  config: classpath:log/logback.xml
+  level: #这里可以通过包来划分每个包中的日志级别，root为根，默认root为info级别
+    root: debug
+    com.hpe.settle: debug
